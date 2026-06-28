@@ -1,0 +1,3 @@
+﻿This file helps keep the folder tracked on GitHub.
+
+This folder contains stack-related DSA problems and solutions.

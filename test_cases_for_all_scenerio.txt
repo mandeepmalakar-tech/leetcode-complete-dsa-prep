@@ -1,0 +1,152 @@
+## 1️⃣ Number Problems
+
+```
+Normal:
+✅ Positive number      → 5, 100, 999
+✅ Negative number      → -5, -100
+✅ Zero                 → 0
+✅ Decimal/Float        → 5.5, 3.14
+
+Boundary:
+✅ Exact limit          → exactly 100, exactly 5000
+✅ Just below limit     → 99, 4999
+✅ Just above limit     → 101, 5001
+
+Invalid:
+✅ String input         → "abc"
+✅ Empty string         → ""
+✅ null / undefined     → null, undefined
+✅ Very large number    → 999999999
+```
+
+---
+
+## 2️⃣ String Problems
+
+```
+Normal:
+✅ Lowercase            → "hello"
+✅ Uppercase            → "HELLO"
+✅ Mixed case           → "HeLLo"
+
+Boundary:
+✅ Single character     → "a"
+✅ Very long string     → "aaaaaa....(1000 chars)"
+
+Invalid:
+✅ Empty string         → ""
+✅ Only spaces          → "   "
+✅ Numbers in string    → "abc123"
+✅ Special characters   → "!@#$"
+✅ null / undefined     → null
+```
+
+---
+
+## 3️⃣ Array Problems
+
+```
+Normal:
+✅ Normal array         → [1, 2, 3, 4, 5]
+✅ Negative numbers     → [-1, -2, 3]
+✅ Mixed                → [-1, 0, 1]
+
+Boundary:
+✅ Single element       → [1]
+✅ Two elements         → [1, 2]
+✅ Very large array     → [1...10000]
+
+Special:
+✅ Empty array          → []
+✅ All same elements    → [1, 1, 1, 1]
+✅ Already sorted       → [1, 2, 3, 4]
+✅ Reverse sorted       → [4, 3, 2, 1]
+✅ Duplicates           → [1, 2, 2, 3]
+✅ Negative + positive  → [-3, -1, 0, 2, 5]
+```
+
+---
+
+## 4️⃣ Boolean Problems
+
+```
+✅ true
+✅ false
+✅ 0 (falsy)
+✅ 1 (truthy)
+✅ "true" (string — invalid!)
+✅ null / undefined
+```
+
+---
+
+## 5️⃣ Conditional / Slab Problems
+### (jaise electricity bill, discount)
+
+```
+✅ Exactly at boundary  → 100, 200, 400
+✅ Just below boundary  → 99, 199, 399
+✅ Just above boundary  → 101, 201, 401
+✅ Zero                 → 0
+✅ Negative             → -1
+✅ Very large           → 99999
+✅ Invalid type         → "abc"
+```
+
+---
+
+## 6️⃣ Character Problems
+### (jaise checkChar)
+
+```
+✅ Lowercase vowel      → 'a', 'e', 'i', 'o', 'u'
+✅ Uppercase vowel      → 'A', 'E', 'I', 'O', 'U'
+✅ Lowercase consonant  → 'b', 'z'
+✅ Uppercase consonant  → 'B', 'Z'
+✅ Digit                → '1', '9'
+✅ Special char         → '!', '@', '#'
+✅ Space                → ' '
+✅ Empty string         → ''
+✅ Multiple chars       → 'ab'
+```
+
+---
+
+## 7️⃣ Math / Geometry Problems
+### (jaise triangle, circle)
+
+```
+✅ Normal valid input    → 3, 4, 5
+✅ Zero sides            → 0, 0, 0
+✅ Negative sides        → -1, 2, 3
+✅ Invalid triangle      → 1, 2, 10
+✅ Equilateral           → 5, 5, 5
+✅ Decimal sides         → 2.5, 3.5, 4.5
+✅ Very large sides      → 999, 999, 999
+```
+
+---
+
+## 8️⃣ Loop / Iteration Problems
+
+```
+✅ n = 0                → loop nahi chalna chahiye
+✅ n = 1                → sirf ek baar
+✅ n = negative         → invalid
+✅ n = very large       → performance check
+✅ n = decimal          → 2.5 ka kya hoga?
+```
+
+---
+
+## Universal Rule — Har Problem Mein Yeh 5 Sochlo 🧠
+
+```
+1. 👍 Normal input      → happy path
+2. 0️⃣  Zero / Empty     → 0, "", [], null
+3. ➖ Negative          → -1, -999
+4. 🔲 Exact boundary    → exactly at limit
+5. ❌ Invalid type      → wrong data type
+```
+
+> 💡 **Senior Tip:** MAANG interviews mein interviewer sabse pehle poochta hai — **"What are your test cases?"** — Agar yeh cheatsheet yaad hai toh tum 30 seconds mein 8-10 cases bata sakte ho! Yahi tumhe baaki candidates se alag karega! 🔥🚀
