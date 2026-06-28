@@ -44,6 +44,14 @@ The primary goal of this repository is to:
 ├── Greedy Algorithms
 ├── Backtracking
 ├── Bit Manipulation
+├── Patterns
+├── Mathematics
+├── JavaScript Solutions
+├── CPP Solutions
+│   └── Patterns
+│       ├── Number Patterns
+│       ├── Character Patterns
+│       └── Star Patterns
 └── LeetCode Solutions
 ```
 
