@@ -6,7 +6,7 @@ using namespace std;
 //   2 2 2 
 //     3 3 
 //       4
-
+// ----------nth times 
 
 int main(){
     
