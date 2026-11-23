@@ -141,6 +141,6 @@ It motivates me to continue learning and sharing.
 **Mandeep Malakar**
 
 - LinkedIn: https://linkedin.com/in/mandeep-malakar-286939250
-- GitHub: https://github.com/tagda-coder
+- GitHub: https://github.com/mandeepmalakar-tech
 
 > *"Consistency beats intensity. One problem every day is better than solving hundreds once in a while."*
